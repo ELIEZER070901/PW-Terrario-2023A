@@ -3,28 +3,40 @@ h1 {
     color: rgb(3, 49, 3);
     text-align: center;
 }
-#left-container{
+
+.container{
     background-color: #eee;
-    border: 3px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    border-style: dashed;
-    border-color: blueviolet;
     width: 15%;
     height: 100%;
+    top: 10px;
+    position: absolute;
+    border: 3px;
+    border-style: dashed;
+    border-color: blueviolet;
     padding: 10px;
+}
+
+#left-container{  
+    left: 0px;
 }
 #right-container{
-    background-color: #eee;
+    right: 0%;  
+}
+
+.plant-holder{ 
+    position: relative;
+    height: 13%;
+    left: -10px;
     border: 3px;
-    right: 0%;
-    width: 15%;
-    height: 100%;
-    top: 0px;
-    position: absolute;
     border-style: dashed;
-    border-color: blueviolet;
-    padding: 10px;
+    border-color: rgb(35, 219, 195);
     
 }
+
+.plant{
+    position: absolute;
+    max-width: 150%;
+    max-height: 150%;
+    z-index: 2;
+}
+
