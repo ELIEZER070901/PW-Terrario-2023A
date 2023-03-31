@@ -10,9 +10,6 @@ h1 {
     height: 100%;
     top: 10px;
     position: absolute;
-    border: 3px;
-    border-style: dashed;
-    border-color: blueviolet;
     padding: 10px;
 }
 
@@ -27,10 +24,6 @@ h1 {
     position: relative;
     height: 13%;
     left: -10px;
-    border: 3px;
-    border-style: dashed;
-    border-color: rgb(35, 219, 195);
-    
 }
 
 .plant{
@@ -40,3 +33,58 @@ h1 {
     z-index: 2;
 }
 
+.jar-walls{
+    height: 80%;
+    width: 60%;
+    background-color: #99dad3;
+    border-radius: 1rem;
+    position: absolute;
+    left: 20%;
+    bottom: 0.5%;
+    opacity: 0.5;
+}
+
+.jar-top{
+    height: 6.8%;
+    width: 50%;
+    position: absolute;
+    background: #99dad3;
+    opacity: 0.5;
+    left: 25%;
+    bottom: 80.5;
+    border: 3px;
+}
+
+.dirt{
+    position: absolute;
+    height: 7%;
+    width: 60%;
+    left: 20%;
+    bottom: 1%;
+    border: 3px;
+    background: #3d1803;
+    border-radius: 0rem 0rem 1rem 1rem;
+    z-index: -1;
+}
+
+.jar-glossy-long {
+    position: absolute;
+    height: 30%;
+    width: 5%;
+    left: 3%;
+    bottom: 55%;
+    border-radius: 4rem 4rem 4rem 4rem;
+    
+    background: #cbe7ec;
+}
+
+.jar-glossy-short{
+    position: absolute;
+    height: 15%;
+    width: 5%;
+    left: 3%;
+    bottom: 30%;
+    border-radius: 4rem 4rem 4rem 4rem;
+    
+    background: #cbe7ec;
+}
